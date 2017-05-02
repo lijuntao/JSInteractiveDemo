@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66A32D271EA0A07C0076EE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D261EA0A07C0076EE3B /* main.m */; };
+		66A32D2A1EA0A07C0076EE3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D291EA0A07C0076EE3B /* AppDelegate.m */; };
+		66A32D2D1EA0A07C0076EE3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D2C1EA0A07C0076EE3B /* ViewController.m */; };
+		66A32D301EA0A07C0076EE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D2E1EA0A07C0076EE3B /* Main.storyboard */; };
+		66A32D321EA0A07C0076EE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D311EA0A07C0076EE3B /* Assets.xcassets */; };
+		66A32D351EA0A07C0076EE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D331EA0A07C0076EE3B /* LaunchScreen.storyboard */; };
+		66A32D401EA0A07C0076EE3B /* JSInteractiveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D3F1EA0A07C0076EE3B /* JSInteractiveDemoTests.m */; };
+		66A32D4B1EA0A07C0076EE3B /* JSInteractiveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D4A1EA0A07C0076EE3B /* JSInteractiveDemoUITests.m */; };
+		66A32D5A1EA0AB2E0076EE3B /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D591EA0AB2E0076EE3B /* HomeTableViewController.m */; };
+		66A32D5F1EA0B3610076EE3B /* NativeAPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D5D1EA0B3610076EE3B /* NativeAPIViewController.m */; };
+		66A32D601EA0B3610076EE3B /* NativeAPIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D5E1EA0B3610076EE3B /* NativeAPIViewController.xib */; };
+		66A32D621EA0B4130076EE3B /* NativeAPI.html in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D611EA0B4130076EE3B /* NativeAPI.html */; };
+		66A32D671EA0CEAD0076EE3B /* BrigeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D651EA0CEAD0076EE3B /* BrigeViewController.m */; };
+		66A32D681EA0CEAD0076EE3B /* BrigeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D661EA0CEAD0076EE3B /* BrigeViewController.xib */; };
+		66A32D6A1EA0CF690076EE3B /* BrigeAPI.html in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D691EA0CF690076EE3B /* BrigeAPI.html */; };
+		66A32D741EA0CFFF0076EE3B /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D6D1EA0CFFF0076EE3B /* WebViewJavascriptBridge.m */; };
+		66A32D751EA0CFFF0076EE3B /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D6F1EA0CFFF0076EE3B /* WebViewJavascriptBridge_JS.m */; };
+		66A32D761EA0CFFF0076EE3B /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D711EA0CFFF0076EE3B /* WebViewJavascriptBridgeBase.m */; };
+		66A32D771EA0CFFF0076EE3B /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D731EA0CFFF0076EE3B /* WKWebViewJavascriptBridge.m */; };
+		66A32D7D1EA0E1230076EE3B /* ContextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D7B1EA0E1230076EE3B /* ContextViewController.m */; };
+		66A32D7E1EA0E1230076EE3B /* ContextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D7C1EA0E1230076EE3B /* ContextViewController.xib */; };
+		66A32D821EA0E1360076EE3B /* JSExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A32D801EA0E1360076EE3B /* JSExportViewController.m */; };
+		66A32D831EA0E1360076EE3B /* JSExportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D811EA0E1360076EE3B /* JSExportViewController.xib */; };
+		66A32D851EA0E2680076EE3B /* ContextAPI.html in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D841EA0E2680076EE3B /* ContextAPI.html */; };
+		66A32D871EA0E2980076EE3B /* JSExportAPI.html in Resources */ = {isa = PBXBuildFile; fileRef = 66A32D861EA0E2980076EE3B /* JSExportAPI.html */; };
+		66A32D8A1EA0E38D0076EE3B /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A32D891EA0E38D0076EE3B /* JavaScriptCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66A32D3C1EA0A07C0076EE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A32D1A1EA0A07B0076EE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A32D211EA0A07B0076EE3B;
+			remoteInfo = JSInteractiveDemo;
+		};
+		66A32D471EA0A07C0076EE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66A32D1A1EA0A07B0076EE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66A32D211EA0A07B0076EE3B;
+			remoteInfo = JSInteractiveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66A32D221EA0A07B0076EE3B /* JSInteractiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSInteractiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A32D261EA0A07C0076EE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66A32D281EA0A07C0076EE3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66A32D291EA0A07C0076EE3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66A32D2B1EA0A07C0076EE3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66A32D2C1EA0A07C0076EE3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66A32D2F1EA0A07C0076EE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66A32D311EA0A07C0076EE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66A32D341EA0A07C0076EE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66A32D361EA0A07C0076EE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A32D3B1EA0A07C0076EE3B /* JSInteractiveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSInteractiveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A32D3F1EA0A07C0076EE3B /* JSInteractiveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSInteractiveDemoTests.m; sourceTree = "<group>"; };
+		66A32D411EA0A07C0076EE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A32D461EA0A07C0076EE3B /* JSInteractiveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSInteractiveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A32D4A1EA0A07C0076EE3B /* JSInteractiveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSInteractiveDemoUITests.m; sourceTree = "<group>"; };
+		66A32D4C1EA0A07C0076EE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A32D581EA0AB2E0076EE3B /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		66A32D591EA0AB2E0076EE3B /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		66A32D5C1EA0B3610076EE3B /* NativeAPIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAPIViewController.h; sourceTree = "<group>"; };
+		66A32D5D1EA0B3610076EE3B /* NativeAPIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeAPIViewController.m; sourceTree = "<group>"; };
+		66A32D5E1EA0B3610076EE3B /* NativeAPIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAPIViewController.xib; sourceTree = "<group>"; };
+		66A32D611EA0B4130076EE3B /* NativeAPI.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NativeAPI.html; sourceTree = "<group>"; };
+		66A32D641EA0CEAD0076EE3B /* BrigeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrigeViewController.h; sourceTree = "<group>"; };
+		66A32D651EA0CEAD0076EE3B /* BrigeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrigeViewController.m; sourceTree = "<group>"; };
+		66A32D661EA0CEAD0076EE3B /* BrigeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrigeViewController.xib; sourceTree = "<group>"; };
+		66A32D691EA0CF690076EE3B /* BrigeAPI.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BrigeAPI.html; sourceTree = "<group>"; };
+		66A32D6C1EA0CFFF0076EE3B /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		66A32D6D1EA0CFFF0076EE3B /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		66A32D6E1EA0CFFF0076EE3B /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		66A32D6F1EA0CFFF0076EE3B /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		66A32D701EA0CFFF0076EE3B /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		66A32D711EA0CFFF0076EE3B /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		66A32D721EA0CFFF0076EE3B /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		66A32D731EA0CFFF0076EE3B /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		66A32D7A1EA0E1230076EE3B /* ContextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextViewController.h; sourceTree = "<group>"; };
+		66A32D7B1EA0E1230076EE3B /* ContextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextViewController.m; sourceTree = "<group>"; };
+		66A32D7C1EA0E1230076EE3B /* ContextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContextViewController.xib; sourceTree = "<group>"; };
+		66A32D7F1EA0E1360076EE3B /* JSExportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSExportViewController.h; sourceTree = "<group>"; };
+		66A32D801EA0E1360076EE3B /* JSExportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExportViewController.m; sourceTree = "<group>"; };
+		66A32D811EA0E1360076EE3B /* JSExportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSExportViewController.xib; sourceTree = "<group>"; };
+		66A32D841EA0E2680076EE3B /* ContextAPI.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ContextAPI.html; sourceTree = "<group>"; };
+		66A32D861EA0E2980076EE3B /* JSExportAPI.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSExportAPI.html; sourceTree = "<group>"; };
+		66A32D891EA0E38D0076EE3B /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		66DDE1781EA45DCA00EB18D1 /* ObjcJSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcJSDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66A32D1F1EA0A07B0076EE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A32D8A1EA0E38D0076EE3B /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A32D381EA0A07C0076EE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A32D431EA0A07C0076EE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66A32D191EA0A07B0076EE3B = {
+			isa = PBXGroup;
+			children = (
+				66A32D241EA0A07C0076EE3B /* JSInteractiveDemo */,
+				66A32D3E1EA0A07C0076EE3B /* JSInteractiveDemoTests */,
+				66A32D491EA0A07C0076EE3B /* JSInteractiveDemoUITests */,
+				66A32D231EA0A07B0076EE3B /* Products */,
+				66A32D881EA0E38D0076EE3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66A32D231EA0A07B0076EE3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D221EA0A07B0076EE3B /* JSInteractiveDemo.app */,
+				66A32D3B1EA0A07C0076EE3B /* JSInteractiveDemoTests.xctest */,
+				66A32D461EA0A07C0076EE3B /* JSInteractiveDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66A32D241EA0A07C0076EE3B /* JSInteractiveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D781EA0E1130076EE3B /* Context上下文交互 */,
+				66A32D791EA0E1130076EE3B /* JSExport交互 */,
+				66A32D631EA0CE290076EE3B /* WebViewJavascriptBrige交互 */,
+				66A32D5B1EA0B3360076EE3B /* 原生API交互 */,
+				66A32D281EA0A07C0076EE3B /* AppDelegate.h */,
+				66A32D291EA0A07C0076EE3B /* AppDelegate.m */,
+				66A32D2B1EA0A07C0076EE3B /* ViewController.h */,
+				66A32D2C1EA0A07C0076EE3B /* ViewController.m */,
+				66A32D2E1EA0A07C0076EE3B /* Main.storyboard */,
+				66A32D311EA0A07C0076EE3B /* Assets.xcassets */,
+				66A32D331EA0A07C0076EE3B /* LaunchScreen.storyboard */,
+				66A32D361EA0A07C0076EE3B /* Info.plist */,
+				66A32D251EA0A07C0076EE3B /* Supporting Files */,
+				66A32D581EA0AB2E0076EE3B /* HomeTableViewController.h */,
+				66A32D591EA0AB2E0076EE3B /* HomeTableViewController.m */,
+			);
+			path = JSInteractiveDemo;
+			sourceTree = "<group>";
+		};
+		66A32D251EA0A07C0076EE3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D261EA0A07C0076EE3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66A32D3E1EA0A07C0076EE3B /* JSInteractiveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D3F1EA0A07C0076EE3B /* JSInteractiveDemoTests.m */,
+				66A32D411EA0A07C0076EE3B /* Info.plist */,
+			);
+			path = JSInteractiveDemoTests;
+			sourceTree = "<group>";
+		};
+		66A32D491EA0A07C0076EE3B /* JSInteractiveDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D4A1EA0A07C0076EE3B /* JSInteractiveDemoUITests.m */,
+				66A32D4C1EA0A07C0076EE3B /* Info.plist */,
+			);
+			path = JSInteractiveDemoUITests;
+			sourceTree = "<group>";
+		};
+		66A32D5B1EA0B3360076EE3B /* 原生API交互 */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D611EA0B4130076EE3B /* NativeAPI.html */,
+				66A32D5C1EA0B3610076EE3B /* NativeAPIViewController.h */,
+				66A32D5D1EA0B3610076EE3B /* NativeAPIViewController.m */,
+				66A32D5E1EA0B3610076EE3B /* NativeAPIViewController.xib */,
+			);
+			path = "原生API交互";
+			sourceTree = "<group>";
+		};
+		66A32D631EA0CE290076EE3B /* WebViewJavascriptBrige交互 */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D6B1EA0CFFF0076EE3B /* WebViewJavascriptBridge */,
+				66A32D691EA0CF690076EE3B /* BrigeAPI.html */,
+				66A32D641EA0CEAD0076EE3B /* BrigeViewController.h */,
+				66A32D651EA0CEAD0076EE3B /* BrigeViewController.m */,
+				66A32D661EA0CEAD0076EE3B /* BrigeViewController.xib */,
+			);
+			path = "WebViewJavascriptBrige交互";
+			sourceTree = "<group>";
+		};
+		66A32D6B1EA0CFFF0076EE3B /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D6C1EA0CFFF0076EE3B /* WebViewJavascriptBridge.h */,
+				66A32D6D1EA0CFFF0076EE3B /* WebViewJavascriptBridge.m */,
+				66A32D6E1EA0CFFF0076EE3B /* WebViewJavascriptBridge_JS.h */,
+				66A32D6F1EA0CFFF0076EE3B /* WebViewJavascriptBridge_JS.m */,
+				66A32D701EA0CFFF0076EE3B /* WebViewJavascriptBridgeBase.h */,
+				66A32D711EA0CFFF0076EE3B /* WebViewJavascriptBridgeBase.m */,
+				66A32D721EA0CFFF0076EE3B /* WKWebViewJavascriptBridge.h */,
+				66A32D731EA0CFFF0076EE3B /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		66A32D781EA0E1130076EE3B /* Context上下文交互 */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D841EA0E2680076EE3B /* ContextAPI.html */,
+				66A32D7A1EA0E1230076EE3B /* ContextViewController.h */,
+				66A32D7B1EA0E1230076EE3B /* ContextViewController.m */,
+				66A32D7C1EA0E1230076EE3B /* ContextViewController.xib */,
+			);
+			path = "Context上下文交互";
+			sourceTree = "<group>";
+		};
+		66A32D791EA0E1130076EE3B /* JSExport交互 */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D861EA0E2980076EE3B /* JSExportAPI.html */,
+				66A32D7F1EA0E1360076EE3B /* JSExportViewController.h */,
+				66A32D801EA0E1360076EE3B /* JSExportViewController.m */,
+				66A32D811EA0E1360076EE3B /* JSExportViewController.xib */,
+				66DDE1781EA45DCA00EB18D1 /* ObjcJSDelegate.h */,
+			);
+			path = "JSExport交互";
+			sourceTree = "<group>";
+		};
+		66A32D881EA0E38D0076EE3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66A32D891EA0E38D0076EE3B /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66A32D211EA0A07B0076EE3B /* JSInteractiveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A32D4F1EA0A07C0076EE3B /* Build configuration list for PBXNativeTarget "JSInteractiveDemo" */;
+			buildPhases = (
+				66A32D1E1EA0A07B0076EE3B /* Sources */,
+				66A32D1F1EA0A07B0076EE3B /* Frameworks */,
+				66A32D201EA0A07B0076EE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSInteractiveDemo;
+			productName = JSInteractiveDemo;
+			productReference = 66A32D221EA0A07B0076EE3B /* JSInteractiveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66A32D3A1EA0A07C0076EE3B /* JSInteractiveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A32D521EA0A07C0076EE3B /* Build configuration list for PBXNativeTarget "JSInteractiveDemoTests" */;
+			buildPhases = (
+				66A32D371EA0A07C0076EE3B /* Sources */,
+				66A32D381EA0A07C0076EE3B /* Frameworks */,
+				66A32D391EA0A07C0076EE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A32D3D1EA0A07C0076EE3B /* PBXTargetDependency */,
+			);
+			name = JSInteractiveDemoTests;
+			productName = JSInteractiveDemoTests;
+			productReference = 66A32D3B1EA0A07C0076EE3B /* JSInteractiveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66A32D451EA0A07C0076EE3B /* JSInteractiveDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A32D551EA0A07C0076EE3B /* Build configuration list for PBXNativeTarget "JSInteractiveDemoUITests" */;
+			buildPhases = (
+				66A32D421EA0A07C0076EE3B /* Sources */,
+				66A32D431EA0A07C0076EE3B /* Frameworks */,
+				66A32D441EA0A07C0076EE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66A32D481EA0A07C0076EE3B /* PBXTargetDependency */,
+			);
+			name = JSInteractiveDemoUITests;
+			productName = JSInteractiveDemoUITests;
+			productReference = 66A32D461EA0A07C0076EE3B /* JSInteractiveDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66A32D1A1EA0A07B0076EE3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = myhexin;
+				TargetAttributes = {
+					66A32D211EA0A07B0076EE3B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					66A32D3A1EA0A07C0076EE3B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66A32D211EA0A07B0076EE3B;
+					};
+					66A32D451EA0A07C0076EE3B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66A32D211EA0A07B0076EE3B;
+					};
+				};
+			};
+			buildConfigurationList = 66A32D1D1EA0A07B0076EE3B /* Build configuration list for PBXProject "JSInteractiveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66A32D191EA0A07B0076EE3B;
+			productRefGroup = 66A32D231EA0A07B0076EE3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66A32D211EA0A07B0076EE3B /* JSInteractiveDemo */,
+				66A32D3A1EA0A07C0076EE3B /* JSInteractiveDemoTests */,
+				66A32D451EA0A07C0076EE3B /* JSInteractiveDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66A32D201EA0A07B0076EE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A32D831EA0E1360076EE3B /* JSExportViewController.xib in Resources */,
+				66A32D871EA0E2980076EE3B /* JSExportAPI.html in Resources */,
+				66A32D681EA0CEAD0076EE3B /* BrigeViewController.xib in Resources */,
+				66A32D601EA0B3610076EE3B /* NativeAPIViewController.xib in Resources */,
+				66A32D851EA0E2680076EE3B /* ContextAPI.html in Resources */,
+				66A32D621EA0B4130076EE3B /* NativeAPI.html in Resources */,
+				66A32D351EA0A07C0076EE3B /* LaunchScreen.storyboard in Resources */,
+				66A32D6A1EA0CF690076EE3B /* BrigeAPI.html in Resources */,
+				66A32D321EA0A07C0076EE3B /* Assets.xcassets in Resources */,
+				66A32D7E1EA0E1230076EE3B /* ContextViewController.xib in Resources */,
+				66A32D301EA0A07C0076EE3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A32D391EA0A07C0076EE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A32D441EA0A07C0076EE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66A32D1E1EA0A07B0076EE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A32D751EA0CFFF0076EE3B /* WebViewJavascriptBridge_JS.m in Sources */,
+				66A32D771EA0CFFF0076EE3B /* WKWebViewJavascriptBridge.m in Sources */,
+				66A32D761EA0CFFF0076EE3B /* WebViewJavascriptBridgeBase.m in Sources */,
+				66A32D671EA0CEAD0076EE3B /* BrigeViewController.m in Sources */,
+				66A32D5A1EA0AB2E0076EE3B /* HomeTableViewController.m in Sources */,
+				66A32D5F1EA0B3610076EE3B /* NativeAPIViewController.m in Sources */,
+				66A32D2D1EA0A07C0076EE3B /* ViewController.m in Sources */,
+				66A32D2A1EA0A07C0076EE3B /* AppDelegate.m in Sources */,
+				66A32D7D1EA0E1230076EE3B /* ContextViewController.m in Sources */,
+				66A32D821EA0E1360076EE3B /* JSExportViewController.m in Sources */,
+				66A32D741EA0CFFF0076EE3B /* WebViewJavascriptBridge.m in Sources */,
+				66A32D271EA0A07C0076EE3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A32D371EA0A07C0076EE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A32D401EA0A07C0076EE3B /* JSInteractiveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A32D421EA0A07C0076EE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A32D4B1EA0A07C0076EE3B /* JSInteractiveDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66A32D3D1EA0A07C0076EE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A32D211EA0A07B0076EE3B /* JSInteractiveDemo */;
+			targetProxy = 66A32D3C1EA0A07C0076EE3B /* PBXContainerItemProxy */;
+		};
+		66A32D481EA0A07C0076EE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66A32D211EA0A07B0076EE3B /* JSInteractiveDemo */;
+			targetProxy = 66A32D471EA0A07C0076EE3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66A32D2E1EA0A07C0076EE3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A32D2F1EA0A07C0076EE3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66A32D331EA0A07C0076EE3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A32D341EA0A07C0076EE3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66A32D4D1EA0A07C0076EE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66A32D4E1EA0A07C0076EE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66A32D501EA0A07C0076EE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSInteractiveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhexin.JSInteractiveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66A32D511EA0A07C0076EE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSInteractiveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhexin.JSInteractiveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66A32D531EA0A07C0076EE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSInteractiveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhexin.JSInteractiveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSInteractiveDemo.app/JSInteractiveDemo";
+			};
+			name = Debug;
+		};
+		66A32D541EA0A07C0076EE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSInteractiveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhexin.JSInteractiveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSInteractiveDemo.app/JSInteractiveDemo";
+			};
+			name = Release;
+		};
+		66A32D561EA0A07C0076EE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSInteractiveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhexin.JSInteractiveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSInteractiveDemo;
+			};
+			name = Debug;
+		};
+		66A32D571EA0A07C0076EE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSInteractiveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhexin.JSInteractiveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSInteractiveDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66A32D1D1EA0A07B0076EE3B /* Build configuration list for PBXProject "JSInteractiveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A32D4D1EA0A07C0076EE3B /* Debug */,
+				66A32D4E1EA0A07C0076EE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A32D4F1EA0A07C0076EE3B /* Build configuration list for PBXNativeTarget "JSInteractiveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A32D501EA0A07C0076EE3B /* Debug */,
+				66A32D511EA0A07C0076EE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A32D521EA0A07C0076EE3B /* Build configuration list for PBXNativeTarget "JSInteractiveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A32D531EA0A07C0076EE3B /* Debug */,
+				66A32D541EA0A07C0076EE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A32D551EA0A07C0076EE3B /* Build configuration list for PBXNativeTarget "JSInteractiveDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A32D561EA0A07C0076EE3B /* Debug */,
+				66A32D571EA0A07C0076EE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66A32D1A1EA0A07B0076EE3B /* Project object */;
+}
